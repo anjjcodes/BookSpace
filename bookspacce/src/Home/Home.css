@@ -1,0 +1,70 @@
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(60px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease forwards;
+}
+.page{
+    position: relative;
+    background-image: url('bookbg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+  
+    
+}
+.page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.538);
+  z-index: 2;
+}
+.container{
+  position: relative;
+  z-index: 3;
+}
+.header ul{
+    list-style: none;
+    display: flex;
+    gap:60px;
+    color:white;
+    justify-content: center;
+}
+.header ul li{
+  font-family: 'Anaktoria';
+  color: white;
+  font-size: 25px;
+  margin-top: 13px;
+}
+.main-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.welcome{
+  font-family: 'Hello-Paris';
+  font-size: 200px;
+  color: white;
+  margin-top: 100px;
+}
+.bookspace{
+  font-family: 'TT font';
+  color: white;
+  margin-top: -40px;
+  font-size: 180px;
+}

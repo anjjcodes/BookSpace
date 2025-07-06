@@ -1,0 +1,91 @@
+.tbr {
+  padding: 20px;
+  padding-top: 10;
+  margin-top: -10px;
+}
+.tbr-h1 {
+  font-family: "Hello-Paris";
+  font-weight: 400;
+  font-size: 150px;
+  text-align: center;
+  color: #a9a38f;
+}
+.tbr-container {
+  display: flex;
+  margin: 50px;
+}
+.right {
+  margin-right: 100px;
+  margin-top: -180px;
+}
+.book-shop {
+  width: 440px;
+  transition: 0.3s ease;
+  margin-left: 300px;
+  filter: drop-shadow(1px 8px 5px rgb(84, 57, 57));
+}
+.left {
+  margin-top: -30px;
+}
+.tbr-p {
+  font-family: Magic;
+  font-size: 25px;
+  line-height: 40px;
+  margin-right: -180px;
+}
+.click {
+  font-size: 25px;
+  font-family: "Anaktoria";
+  font-weight: 300;
+  margin-top: 20px;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 30px;
+  background-color: #efd1b1;
+  transition: 0.3s ease;
+}
+.click:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.book-shop:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.heart {
+  position: absolute;
+  width: 300px;
+  margin-top: -200px;
+}
+.tbr-box {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+   width: 1000px;
+  height: 600px;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  animation: fadeIn 0.3s ease-in-out;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+.each-tbr {
+   width: 100px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 1px 5px 3px rgba(48, 45, 45, 0.482);
+}
+
+.view-tbr{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+    margin: 40px;
+    justify-content: center;
+}

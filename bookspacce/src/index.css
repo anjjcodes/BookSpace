@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: url('./cursor.png') auto;
+
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf9f9;
+}
+    
+@font-face {
+    font-family: 'Hello-Paris';
+    src: url('./Hello-Paris-Font/HelloParisScript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Anaktoria';
+    src: url('./anaktoria-webfont/Anaktoria.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT font';
+    src: url('./tt-hoves-pro-trial-webfont/TT\ Hoves\ Pro\ Bold\ Outline\ Trial.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Kingred';
+    src: url('./kingred.woff');
+}
+@font-face {
+    font-family: 'Brusher';
+    src: url('./Brusher.woff');
+}
+@font-face {
+  font-family: 'October';
+  src: url('./OctoberTwilight-Ooe6.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Priestacy';
+  src: url('./Priestacy.woff');
+}
+@font-face {
+  font-family: 'Palisade';
+  src: url('./Palisade-9MPa2.woff');
+}
+@font-face {
+  font-family: 'Magica';
+  src: url('./Magica-BWgl8.woff');
+}
+@font-face {
+  font-family: 'Eternal';
+  src: url('./EternallightsScript-Yzl38.woff');
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}

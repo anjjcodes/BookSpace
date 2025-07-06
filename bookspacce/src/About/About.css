@@ -1,0 +1,68 @@
+.about-page{
+    background-color:#fdf9f9;
+    position:relative;
+}
+.about-container{
+    display: flex;
+    gap: 170px;
+    margin-left: 140px;
+    margin-bottom: 40px;
+}
+
+.right-about{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.hey{
+    font-family: 'Hello-Paris';
+    font-size: 180px;
+    color: #ff22c2;
+    font-weight: 100;
+    margin-top: 50px;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeSlideUp 0.5s ease-out forwards;
+    
+
+}
+
+@keyframes fadeSlideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.left-about{
+    position: relative;
+    width: fit-content;
+}
+.anjj {
+  width: 450px;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+.about-me{
+    font-family: 'Magica';
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-right: 200px;
+    font-size: 20px;
+    margin-top: -17px;
+}
+.flower1,
+.flower2 {
+  position: absolute;
+  width: 700px;
+}
+
+.flower1 {
+  top: 0;
+  right: 70px;
+}
+
+.flower2 {
+  top: 340px;
+  left: 200px;
+}
