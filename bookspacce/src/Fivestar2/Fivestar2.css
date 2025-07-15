@@ -1,0 +1,116 @@
+.entire-five{
+    background-color: rgb(254, 225, 243);
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+.fivestar-cont{
+    display: flex;
+    margin-top: 20px;
+    padding: 0px;
+    gap: 100px;
+    margin-left: 80px;
+    
+}
+.blue , .pink{
+    width: 250px;
+}
+.five-left{
+    margin-left: 50px;
+}
+.aesth-book{
+    width: 450px;
+    margin-top: -290px;
+    filter: drop-shadow(1px 8px 3px rgb(209, 135, 145));
+    transition: 0.3s ease;
+
+}
+.aesth-book:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.five-star{
+    font-family: Hello-Paris;
+    font-size: 150px;
+    font-weight: 200;
+    color: #de8d86;
+}
+.body-five{
+    font-family: Magica;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-right: 170px;
+    font-size: 23px;
+    margin-top: -17px;
+}
+.click5{
+    font-family: Anaktoria;
+    font-size: 27px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 1px 2px 3px grey;
+    padding: 15px 30px;
+    background-color: #91aeb6;
+    margin-top: 20px;
+    transition: 0.3s ;
+}
+.click5:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.blue{
+    margin-left: -40px;
+}
+.pink{
+    margin-top: -250px;
+    margin-left: 300px;
+}
+.border{
+
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 350px;
+}
+.all-fivestar{
+    position: fixed;             
+  top: 50%;           
+  left: 50%;  
+   width: 1000px;
+  height: 600px;                  
+  transform: translate(-50%, -50%); 
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);             
+  overflow-y: auto;
+  box-sizing: border-box;
+  scrollbar-width: thin;
+  scrollbar-color: #c4a1da transparent;
+  
+}
+.all-fivestar::-webkit-scrollbar{
+    width: 6px;
+}
+.five-books{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 40px;
+    margin: 40px;
+    justify-content: center;
+
+
+}
+
+.b{
+     width: 100px;
+     height: 150px;
+    border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 1px 5px 3px rgba(24, 23, 23, 0.41);
+}
+
+.allfive-visible .each-book{
+    opacity: 1;
+    transform: scale(1);
+}
